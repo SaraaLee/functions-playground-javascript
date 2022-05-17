@@ -23,13 +23,14 @@ function agua_necesaria(condicion, km) {
     else if (condicion == "mala") {
         agua_por_km = 0.7;
     }
-    litros_totales = km * agua_por_km;
+    litros_totales = km * agua_por_km
     return litros_totales ;
 
 }
 
 // Esta primera prueba debería funcionar si modificas adecuadamente el cuerpo de la función. Fijate que ahora mismo, la función no considera el caso de que la condición del ciclsta sea 'regular' ... hay que solventarlo.
+
 let condicion = 'regular';
 let km = 5;
 let agua = agua_necesaria(condicion, km);
-console.log(`Este ciclista deberia necesitar ${agua} litros de agua en total: , agua`);
+console.log(`Este ciclista deberia necesitar ${agua} litros de agua en total: `, agua);
