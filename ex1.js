@@ -7,3 +7,4 @@
  }
 
  // Aquí tú código
+ muestraGato();

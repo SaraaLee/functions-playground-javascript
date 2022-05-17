@@ -6,8 +6,8 @@
      return a + b
  }
 
- let sum1; //<-- Solo puedes modificar esta línea
-let sum2; //<-- Solo puedes modificar esta línea
+ let sum1 = 5; //<-- Solo puedes modificar esta línea
+let sum2 = 5; //<-- Solo puedes modificar esta línea
  let resultado = suma(sum1, sum2)
  console.log(resultado)
 
